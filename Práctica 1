@@ -1,0 +1,23 @@
+PROGRAM practica1;
+VAR
+	x,y:integer;
+BEGIN
+	writeln('Introduzca el primer numero:  ');
+	readln (x);
+	writeln('Introduzca el segundo numero:  ');
+	readln (y);
+	writeln('**************************************************');
+	writeln('  Autor: David Sanchez Gonzalez');
+	writeln('**************************************************');
+	writeln;
+	writeln (x:5, '  +', y:5, ' =', x+y:5);
+	writeln (x:5, '  -', y:5, ' =', x-y:5);
+	writeln (x:5, '  *', y:5, ' =', x*y:5);
+	writeln (x:5, '  /', y:5, ' =', x DIV y:5);
+	writeln ('El resto de la division es: ', x MOD y);
+	writeln ('El valor absoluto de ', x,' es: ', abs (x));
+	writeln ('El cuadrado de ', x, ' es: ', sqr (x));
+	writeln ('El sucesor de ', x, ' es: ', succ (x));
+	writeln ('El antecesor de ', x, ' es: ', pred (x));
+	readln;
+END.
